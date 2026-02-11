@@ -7,10 +7,11 @@
         <option value="$PROJECT_DIR$/spring-services/menu-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-microservices/menu-microservice/pom.xml" />
         <option value="$PROJECT_DIR$/spring-microservices/restaurant-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-microservices/delivery-microservice/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" project-jdk-name="24" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" project-jdk-name="24" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
