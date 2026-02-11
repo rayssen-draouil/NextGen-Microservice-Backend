@@ -8,7 +8,17 @@
         <option value="$PROJECT_DIR$/spring-microservices/menu-microservice/pom.xml" />
         <option value="$PROJECT_DIR$/spring-microservices/restaurant-microservice/pom.xml" />
         <option value="$PROJECT_DIR$/spring-microservices/delivery-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/order-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/order-microservie/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-microservices/order-mciroservfice/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-microservices/order-microservice/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/order-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/order-microservie/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_23" project-jdk-name="24" project-jdk-type="JavaSDK">
