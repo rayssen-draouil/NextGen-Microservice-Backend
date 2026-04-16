@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "imageAlt": "Interieur du restaurant",
+    "restaurantName": "L'Atelier Gourmet",
+    "openNow": "Ouvert",
+    "rating": "4.8 (240 avis)",
+    "distance": "0.8 km",
+    "delivery": "25-35 min",
+    "minOrder": "Min 12 EUR"
+  },
+  "categories": {
+    "starters": "Entrees",
+    "mains": "Plats",
+    "pizzas": "Pizzas",
+    "desserts": "Desserts",
+    "drinks": "Boissons"
+  },
+  "badges": {
+    "vegetarian": "Vegetarien",
+    "spicy": "Piquant",
+    "popular": "Populaire"
+  },
+  "actions": {
+    "addToCart": "Ajouter au panier",
+    "viewCart": "Voir le panier"
+  },
+  "instructions": {
+    "title": "Instructions speciales ?",
+    "placeholder": "Indiquez vos preferences...",
+    "characters": "caracteres"
+  },
+  "items": {
+    "starter-1": {
+      "name": "Carpaccio d'avocat",
+      "description": "Fines tranches d'avocat, agrumes, sesame grille et herbes."
+    },
+    "main-1": {
+      "name": "Saumon grille",
+      "description": "Filet de saumon avec legumes rotis et sauce citronnee."
+    },
+    "pizza-1": {
+      "name": "Pizza Burrata Truffe",
+      "description": "Burrata fraiche, huile de truffe noire, champignons et mozzarella."
+    },
+    "dessert-1": {
+      "name": "Panna cotta vanille",
+      "description": "Panna cotta cremeuse avec coulis de fruits rouges."
+    },
+    "drink-1": {
+      "name": "Limonade maison",
+      "description": "Citron frais, menthe et eau petillante."
+    }
+  }
+}

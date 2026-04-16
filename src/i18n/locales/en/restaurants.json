@@ -1,0 +1,65 @@
+{
+  "title": "Restaurants in your area",
+  "resultsCount": "84 Restaurants in your area",
+  "filters": "Filters",
+  "cuisineType": "Cuisine Type",
+  "filterLabels": {
+    "all": "All",
+    "italian": "Italian",
+    "chinese": "Chinese",
+    "tunisian": "Tunisian",
+    "burgers": "Burgers",
+    "sushi": "Sushi"
+  },
+  "clear": "Clear All",
+  "search": "Search restaurants, cuisines, or dishes...",
+  "sortBy": "Sort by",
+  "popularity": "Popularity",
+  "rating": "Rating",
+  "delivery": "Delivery Time",
+  "deliveryRange": "20-30 min",
+  "open": "Open",
+  "closed": "Closed",
+  "loadMore": "Load More",
+  "empty": "No restaurants match your filter.",
+  "cards": {
+    "greenTitle": "Green Garden",
+    "greenSubtitle": "Salads • Healthy • Vegan • $",
+    "bigBiteTitle": "Big Bite Burgers",
+    "bigBiteSubtitle": "Burgers • American • Fast Food • $$",
+    "steakTitle": "The Steakhouse",
+    "steakSubtitle": "Steaks • BBQ • Grill • $$$"
+  },
+  "reviews": {
+    "heroAlt": "Restaurant interior",
+    "customer": "Customer",
+    "text": "Great delivery speed and delicious food."
+  },
+  "menu": {
+    "heroAlt": "Restaurant Interior",
+    "restaurantName": "L'Atelier Gourmet",
+    "openNow": "Open Now",
+    "rating": "4.8 (240 reviews)",
+    "distance": "0.8 km away",
+    "delivery": "25-35 min",
+    "tabs": {
+      "menu": "Menu",
+      "reviews": "Reviews",
+      "info": "Info"
+    },
+    "popularChoices": "Popular Choices",
+    "addToOrder": "Add to Order",
+    "yourOrder": "Your Order",
+    "viewCart": "View Cart",
+    "items": {
+      "pizza": {
+        "name": "Truffle Burrata Pizza",
+        "description": "Fresh burrata, black truffle oil, wild mushrooms, and artisanal mozzarella on a 48h sourdough crust."
+      },
+      "bowl": {
+        "name": "Zen Garden Bowl",
+        "description": "Quinoa, roasted sweet potatoes, avocado, kale, and ginger miso dressing with sesame seeds."
+      }
+    }
+  }
+}

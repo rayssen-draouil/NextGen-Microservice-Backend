@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "imageAlt": "Restaurant Interior",
+    "restaurantName": "L'Atelier Gourmet",
+    "openNow": "Open Now",
+    "rating": "4.8 (240 reviews)",
+    "distance": "0.8 km away",
+    "delivery": "25-35 min",
+    "minOrder": "Min EUR 12"
+  },
+  "categories": {
+    "starters": "Starters",
+    "mains": "Mains",
+    "pizzas": "Pizzas",
+    "desserts": "Desserts",
+    "drinks": "Drinks"
+  },
+  "badges": {
+    "vegetarian": "Vegetarian",
+    "spicy": "Spicy",
+    "popular": "Popular"
+  },
+  "actions": {
+    "addToCart": "Add to Cart",
+    "viewCart": "View Cart / Voir le panier"
+  },
+  "instructions": {
+    "title": "Any special instructions? / Instructions speciales ?",
+    "placeholder": "Tell us your preferences...",
+    "characters": "characters"
+  },
+  "items": {
+    "starter-1": {
+      "name": "Avocado Carpaccio",
+      "description": "Thin avocado slices, citrus dressing, toasted sesame, and herbs."
+    },
+    "main-1": {
+      "name": "Grilled Salmon Plate",
+      "description": "Salmon fillet with roasted vegetables and lemon herb sauce."
+    },
+    "pizza-1": {
+      "name": "Truffle Burrata Pizza",
+      "description": "Fresh burrata, black truffle oil, wild mushrooms, and mozzarella."
+    },
+    "dessert-1": {
+      "name": "Vanilla Panna Cotta",
+      "description": "Creamy panna cotta with berry coulis and pistachio crunch."
+    },
+    "drink-1": {
+      "name": "House Lemonade",
+      "description": "Fresh lemon, mint, and sparkling water."
+    }
+  }
+}

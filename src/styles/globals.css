@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-tertiary: var(--tertiary);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-destructive: var(--destructive);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --font-family-sans: var(--font-sans);
+  --font-family-heading: var(--font-heading);
+}
+
+:root,
+[data-theme="light"] {
+  --background: #fff7ed;
+  --foreground: #1e1b4b;
+  --primary: #1e1b4b;
+  --primary-foreground: #ffffff;
+  --secondary: #f59e0b;
+  --secondary-foreground: #1e1b4b;
+  --tertiary: #f87171;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #f59e0b;
+  --destructive: #ef4444;
+  --card: #ffffff;
+  --card-foreground: #1e1b4b;
+  --border: #e2e8f0;
+  --input: #f1f5f9;
+  --ring: #f59e0b;
+  --radius: 1rem;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+}
+
+[data-theme="dark"] {
+  --background: #0f0e1a;
+  --foreground: #f8fafc;
+  --primary: #a5b4fc;
+  --primary-foreground: #0f0e1a;
+  --secondary: #f59e0b;
+  --secondary-foreground: #0f0e1a;
+  --tertiary: #f87171;
+  --muted: #1e1b4b;
+  --muted-foreground: #94a3b8;
+  --accent: #f59e0b;
+  --destructive: #ef4444;
+  --card: #1a1830;
+  --card-foreground: #f8fafc;
+  --border: #2d2b55;
+  --input: #1e1b4b;
+  --ring: #f59e0b;
+  --radius: 1rem;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 10px;
+}

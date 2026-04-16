@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Avis des clients",
+    "subtitle": "Decouvrez les retours de nos clients"
+  },
+  "stats": {
+    "average": "Note moyenne",
+    "total": "Nombre d'avis",
+    "recommended": "Recommanderaient"
+  },
+  "breakdown": {
+    "title": "Repartition des notes",
+    "stars": "{{count}} etoiles"
+  },
+  "filters": {
+    "all": "Tous",
+    "allRestaurants": "Tous les restaurants"
+  },
+  "sort": {
+    "recent": "Plus recent",
+    "highest": "Mieux note",
+    "lowest": "Moins bien note",
+    "helpful": "Plus utile"
+  },
+  "review": {
+    "helpful": "personnes ont trouve cet avis utile",
+    "replyLabel": "Reponse du restaurant"
+  },
+  "cta": {
+    "title": "Une bonne experience ?",
+    "subtitle": "Partagez votre retour pour aider les autres.",
+    "button": "Ecrire un avis"
+  },
+  "modal": {
+    "title": "Votre avis",
+    "selectRestaurant": "Choisir un restaurant",
+    "placeholder": "Ecrivez au moins 50 caracteres...",
+    "submit": "Envoyer l'avis"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Customer Reviews / Avis des clients",
+    "subtitle": "See what our customers are saying"
+  },
+  "stats": {
+    "average": "Average rating",
+    "total": "Total reviews",
+    "recommended": "Would recommend"
+  },
+  "breakdown": {
+    "title": "Rating Breakdown",
+    "stars": "{{count}} stars"
+  },
+  "filters": {
+    "all": "All",
+    "allRestaurants": "All restaurants"
+  },
+  "sort": {
+    "recent": "Most Recent",
+    "highest": "Highest Rated",
+    "lowest": "Lowest Rated",
+    "helpful": "Most Helpful"
+  },
+  "review": {
+    "helpful": "people found this helpful",
+    "replyLabel": "Restaurant reply"
+  },
+  "cta": {
+    "title": "Had a great experience? / Une bonne experience ?",
+    "subtitle": "Share your feedback and help others choose.",
+    "button": "Write a Review / Ecrire un avis"
+  },
+  "modal": {
+    "title": "Write Your Review / Votre avis",
+    "selectRestaurant": "Select restaurant",
+    "placeholder": "Write at least 50 characters...",
+    "submit": "Submit Review"
+  }
+}

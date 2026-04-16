@@ -1,0 +1,57 @@
+{
+  "title": "Checkout",
+  "secureSession": "Secure Session",
+  "deliveryAddress": "Delivery Address",
+  "paymentMethod": "Payment Method",
+  "homeLabel": "Home",
+  "address": "123 Rue de Rivoli, 75001 Paris, France",
+  "orderSummary": "Order Summary",
+  "subtotal": "Subtotal",
+  "deliveryFee": "Delivery Fee",
+  "discount": "Discount",
+  "total": "Total",
+  "liveTrack": "Live Track",
+  "estimatedArrival": "Estimated Arrival",
+  "courier": "Your Courier",
+  "placeOrder": "Place Order",
+  "placingOrder": "Placing order...",
+  "orderPlacedSuccess": "Order placed successfully",
+  "orderPlacedError": "Unable to place the order.",
+  "security": "Secure checkout by Stripe",
+  "estimatedDelivery": "Estimated delivery: 25 - 30 min",
+  "apply": "Apply",
+  "promoPlaceholder": "Promo code",
+  "form": {
+    "fullName": "Full name",
+    "phone": "Phone number",
+    "address1": "Address line 1",
+    "address2": "Address line 2",
+    "city": "City",
+    "postalCode": "Postal code",
+    "instructions": "Delivery instructions",
+    "cardNumber": "Card number",
+    "expiry": "Expiry date",
+    "cvv": "CVV"
+  },
+  "methods": {
+    "card": "Card",
+    "cash": "Cash on Delivery",
+    "mobile": "Mobile Pay"
+  },
+  "items": {
+    "pizza": "Truffle Burrata Pizza",
+    "coke": "Coke Zero"
+  },
+  "arrivingIn": "Arriving In",
+  "orderId": "Order #8291",
+  "orderMeta": "L'Atelier Gourmet • 3 Items",
+  "steps": {
+    "placed": "Order Placed",
+    "preparing": "Preparing",
+    "onTheWay": "On the Way",
+    "delivered": "Delivered",
+    "activeStatus": "Driver is 5 mins away",
+    "eta": "Estimated 1:15 PM"
+  },
+  "shareProgress": "Share Live Progress"
+}

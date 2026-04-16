@@ -1,0 +1,57 @@
+{
+  "title": "Paiement",
+  "secureSession": "Session securisee",
+  "deliveryAddress": "Adresse de livraison",
+  "paymentMethod": "Mode de paiement",
+  "homeLabel": "Maison",
+  "address": "123 Rue de Rivoli, 75001 Paris, France",
+  "orderSummary": "Resume de commande",
+  "subtotal": "Sous-total",
+  "deliveryFee": "Frais de livraison",
+  "discount": "Reduction",
+  "total": "Total",
+  "liveTrack": "Suivi en direct",
+  "estimatedArrival": "Arrivee estimee",
+  "courier": "Votre livreur",
+  "placeOrder": "Valider la commande",
+  "placingOrder": "Validation en cours...",
+  "orderPlacedSuccess": "Commande passee avec succes",
+  "orderPlacedError": "Impossible de passer la commande.",
+  "security": "Paiement securise par Stripe",
+  "estimatedDelivery": "Livraison estimee : 25 - 30 min",
+  "apply": "Appliquer",
+  "promoPlaceholder": "Code promo",
+  "form": {
+    "fullName": "Nom complet",
+    "phone": "Numero de telephone",
+    "address1": "Adresse ligne 1",
+    "address2": "Adresse ligne 2",
+    "city": "Ville",
+    "postalCode": "Code postal",
+    "instructions": "Instructions de livraison",
+    "cardNumber": "Numero de carte",
+    "expiry": "Date d'expiration",
+    "cvv": "CVV"
+  },
+  "methods": {
+    "card": "Carte",
+    "cash": "Paiement a la livraison",
+    "mobile": "Paiement mobile"
+  },
+  "items": {
+    "pizza": "Pizza Burrata Truffe",
+    "coke": "Coke Zero"
+  },
+  "arrivingIn": "Arrivee dans",
+  "orderId": "Commande #8291",
+  "orderMeta": "L'Atelier Gourmet • 3 Articles",
+  "steps": {
+    "placed": "Commande passee",
+    "preparing": "Preparation",
+    "onTheWay": "En route",
+    "delivered": "Livree",
+    "activeStatus": "Le livreur est a 5 min",
+    "eta": "Estimee a 13:15"
+  },
+  "shareProgress": "Partager le suivi"
+}

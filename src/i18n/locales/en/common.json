@@ -1,0 +1,52 @@
+{
+  "brand": "Foodly",
+  "nav": {
+    "home": "Home",
+    "restaurants": "Restaurants",
+    "orders": "Orders",
+    "reviews": "Reviews",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "logout": "Logout",
+    "cart": "Cart"
+  },
+  "footer": {
+    "tagline": "Delicious food, delivered fast.",
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Email Address",
+    "subscribe": "Subscribe",
+    "rights": "© 2025 Foodly. All rights reserved.",
+    "links": {
+      "home": "Home / Accueil",
+      "restaurants": "Restaurants",
+      "reviews": "Reviews / Avis",
+      "driver": "Become a Driver / Livreur",
+      "addRestaurant": "Add Your Restaurant"
+    },
+    "supportLinks": {
+      "helpCenter": "Help Center / Aide",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact Us / Contactez-nous"
+    }
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  },
+  "actions": {
+    "viewAll": "View All",
+    "orderNow": "Order Now",
+    "explore": "Explore",
+    "change": "Change",
+    "placeOrder": "Place Order",
+    "goCheckout": "Go to Checkout",
+    "shareProgress": "Share Live Progress"
+  },
+  "meta": {
+    "notFound": "Page Not Found",
+    "secureSession": "Secure Session"
+  }
+}

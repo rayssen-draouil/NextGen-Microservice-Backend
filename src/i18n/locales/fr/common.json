@@ -1,0 +1,52 @@
+{
+  "brand": "Foodly",
+  "nav": {
+    "home": "Accueil",
+    "restaurants": "Restaurants",
+    "orders": "Commandes",
+    "reviews": "Avis",
+    "dashboard": "Tableau de bord",
+    "login": "Connexion",
+    "logout": "Deconnexion",
+    "cart": "Panier"
+  },
+  "footer": {
+    "tagline": "Des plats delicieux, livres rapidement.",
+    "quickLinks": "Liens rapides",
+    "support": "Support",
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Adresse e-mail",
+    "subscribe": "S'abonner",
+    "rights": "© 2025 Foodly. Tous droits reserves.",
+    "links": {
+      "home": "Accueil",
+      "restaurants": "Restaurants",
+      "reviews": "Avis",
+      "driver": "Devenir livreur",
+      "addRestaurant": "Ajouter votre restaurant"
+    },
+    "supportLinks": {
+      "helpCenter": "Centre d'aide",
+      "privacy": "Politique de confidentialite",
+      "terms": "Conditions d'utilisation",
+      "contact": "Contactez-nous"
+    }
+  },
+  "theme": {
+    "light": "Mode Clair",
+    "dark": "Mode Sombre"
+  },
+  "actions": {
+    "viewAll": "Voir tout",
+    "orderNow": "Commander",
+    "explore": "Explorer",
+    "change": "Changer",
+    "placeOrder": "Valider la commande",
+    "goCheckout": "Aller au paiement",
+    "shareProgress": "Partager le suivi"
+  },
+  "meta": {
+    "notFound": "Page introuvable",
+    "secureSession": "Session securisee"
+  }
+}

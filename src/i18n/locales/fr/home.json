@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "badge": "50% de reduction sur votre premiere commande !",
+    "title": "Votre cuisine preferee,",
+    "titleAccent": "livree rapidement.",
+    "subtitle": "Plats delicieux, livres rapidement.",
+    "description": "Commandez chez les meilleurs restaurants locaux et suivez la livraison en temps reel.",
+    "cta_primary": "Commander",
+    "cta_secondary": "Explorer",
+    "customers": "50k+ Clients satisfaits",
+    "deliveryTime": "Temps de livraison",
+    "deliveryRange": "25 - 30 min"
+  },
+  "howItWorks": {
+    "title": "Comment ca marche",
+    "step1_title": "Choisir",
+    "step1_desc": "Selectionnez parmi des centaines de restaurants notes.",
+    "step2_title": "Commander",
+    "step2_desc": "Choisissez vos plats preferes et payez en securite.",
+    "step3_title": "Profiter",
+    "step3_desc": "Recevez vos plats chauds et frais."
+  },
+  "restaurants": {
+    "title": "Restaurants populaires",
+    "viewAll": "Voir tout",
+    "open": "Ouvert",
+    "deliveryRange": "25-35 min",
+    "closed": "Ferme",
+    "subtitle": "Les adresses les plus aimees de votre quartier.",
+    "freeDelivery": "Livraison gratuite"
+  },
+  "cards": {
+    "bella": "Bella Pizza",
+    "burger": "Burger House",
+    "sakura": "Sakura Sushi",
+    "bellaDesc": "Italien • Pizza • Pates",
+    "burgerDesc": "Americain • Burgers • Frites",
+    "sakuraDesc": "Japonais • Sushi • Ramen"
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="foodlyTitle">
+  <title id="foodlyTitle">Foodly Logo</title>
+  <circle cx="64" cy="64" r="60" fill="#1E1B4B"/>
+  <path d="M30 72c0-18 15-33 34-33h30v14H64c-11 0-20 9-20 20v23H30V72z" fill="#F59E0B"/>
+  <circle cx="95" cy="95" r="8" fill="#F87171"/>
+</svg>

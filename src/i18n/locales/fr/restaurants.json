@@ -1,0 +1,65 @@
+{
+  "title": "Restaurants dans votre zone",
+  "resultsCount": "84 restaurants dans votre zone",
+  "filters": "Filtres",
+  "cuisineType": "Type de cuisine",
+  "filterLabels": {
+    "all": "Tous",
+    "italian": "Italien",
+    "chinese": "Chinois",
+    "tunisian": "Tunisien",
+    "burgers": "Burgers",
+    "sushi": "Sushi"
+  },
+  "clear": "Tout effacer",
+  "search": "Rechercher restaurants, cuisines ou plats...",
+  "sortBy": "Trier par",
+  "popularity": "Popularite",
+  "rating": "Avis",
+  "delivery": "Temps de livraison",
+  "deliveryRange": "20-30 min",
+  "open": "Ouvert",
+  "closed": "Ferme",
+  "loadMore": "Charger plus",
+  "empty": "Aucun restaurant ne correspond au filtre.",
+  "cards": {
+    "greenTitle": "Green Garden",
+    "greenSubtitle": "Salades • Sain • Vegan • $",
+    "bigBiteTitle": "Big Bite Burgers",
+    "bigBiteSubtitle": "Burgers • Americain • Fast Food • $$",
+    "steakTitle": "The Steakhouse",
+    "steakSubtitle": "Steaks • BBQ • Grill • $$$"
+  },
+  "reviews": {
+    "heroAlt": "Interieur du restaurant",
+    "customer": "Client",
+    "text": "Livraison rapide et plats delicieux."
+  },
+  "menu": {
+    "heroAlt": "Interieur du restaurant",
+    "restaurantName": "L'Atelier Gourmet",
+    "openNow": "Ouvert",
+    "rating": "4.8 (240 avis)",
+    "distance": "0.8 km",
+    "delivery": "25-35 min",
+    "tabs": {
+      "menu": "Menu",
+      "reviews": "Avis",
+      "info": "Infos"
+    },
+    "popularChoices": "Choix populaires",
+    "addToOrder": "Ajouter",
+    "yourOrder": "Votre commande",
+    "viewCart": "Voir panier",
+    "items": {
+      "pizza": {
+        "name": "Pizza Burrata Truffe",
+        "description": "Burrata fraiche, huile de truffe noire, champignons sauvages et mozzarella artisanale."
+      },
+      "bowl": {
+        "name": "Zen Garden Bowl",
+        "description": "Quinoa, patate douce rotie, avocat, kale et sauce miso gingembre."
+      }
+    }
+  }
+}
