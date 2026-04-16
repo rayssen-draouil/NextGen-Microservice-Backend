@@ -59,4 +59,8 @@ public class LivraisonService {
     public List<tn.esprit.microservice.livraison.dto.OrderDTO> getAllOrdersFromOrderService() {
         return orderClient.getAllOrders();
     }
+
+    public List<tn.esprit.microservice.livraison.dto.OrderDTO> getOrdersByLivreurId(String livreurId) {
+        return orderClient.getOrdersByLivreurId(livreurId);
+    }
 }

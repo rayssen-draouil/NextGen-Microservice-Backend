@@ -15,4 +15,7 @@ public interface OrderClient {
 
     @GetMapping("/order")
     List<OrderDTO> getAllOrders();
+
+    @GetMapping("/order/livreur/{livreurId}")
+    List<OrderDTO> getOrdersByLivreurId(@PathVariable("livreurId") String livreurId);
 }

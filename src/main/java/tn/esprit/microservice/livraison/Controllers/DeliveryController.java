@@ -26,4 +26,9 @@ public class DeliveryController {
     public java.util.List<OrderDTO> getAllOrders() {
         return livraisonService.getAllOrdersFromOrderService();
     }
+
+    @GetMapping("/livreur/{livreurId}/orders")
+    public java.util.List<OrderDTO> getOrdersByLivreur(@PathVariable String livreurId) {
+        return livraisonService.getOrdersByLivreurId(livreurId);
+    }
 }
