@@ -1,0 +1,189 @@
+server:
+  port: 3000
+
+spring:
+  application:
+    name: APIGatewayMain
+  cloud:
+    config:
+      enabled: true
+      uri: ${SPRING_CLOUD_CONFIG_URI:http://localhost:8585}
+    gateway:
+      routes:
+        - id: order-openapi
+          order: -1
+          uri: lb://ORDER
+          predicates:
+            - Path=/docs/order
+          filters:
+            - SetPath=/v3/api-docs
+
+        - id: delivery-openapi
+          order: -1
+          uri: lb://LIVRAISON
+          predicates:
+            - Path=/docs/delivery
+          filters:
+            - SetPath=/v3/api-docs
+
+        - id: restaurant-openapi
+          order: -1
+          uri: lb://RESTAURANT
+          predicates:
+            - Path=/docs/restaurants
+          filters:
+            - SetPath=/v3/api-docs
+
+        - id: avis-openapi
+          order: -1
+          uri: lb://AVIS
+          predicates:
+            - Path=/docs/reclamations
+          filters:
+            - SetPath=/v3/api-docs
+
+        - id: menu-openapi
+          order: -1
+          uri: lb://MENU
+          predicates:
+            - Path=/docs/menus
+          filters:
+            - SetPath=/v3/api-docs
+
+        - id: user-openapi
+          order: -1
+          uri: ${USER_SERVICE_URL:http://localhost:3001}
+          predicates:
+            - Path=/user/api-json
+          filters:
+            - SetPath=/api-json
+
+        - id: user-auth
+          order: 0
+          uri: ${USER_SERVICE_URL:http://localhost:3001}
+          predicates:
+            - Path=/auth/login, /auth/**
+
+        - id: restaurant-public
+          order: 0
+          uri: lb://RESTAURANT
+          predicates:
+            - Path=/restaurants, /restaurants/**
+
+        - id: order-public
+          order: 0
+          uri: lb://ORDER
+          predicates:
+            - Path=/order, /order/**
+
+        - id: delivery-public
+          order: 0
+          uri: lb://LIVRAISON
+          predicates:
+            - Path=/delivery, /delivery/**, /livraisons, /livraisons/**
+
+        - id: menu-public
+          order: 0
+          uri: lb://MENU
+          predicates:
+            - Path=/menus, /menus/**
+
+        - id: reclamation-public
+          order: 0
+          uri: lb://AVIS
+          predicates:
+            - Path=/reclamations, /reclamations/**
+
+        - id: user-management
+          order: 0
+          uri: ${USER_SERVICE_URL:http://localhost:3001}
+          predicates:
+            - Path=/users, /users/**
+
+        - id: order-service
+          order: 0
+          uri: lb://ORDER
+          predicates:
+            - Path=/order
+            - Path=/order/**
+
+        - id: delivery-service
+          order: 0
+          uri: lb://LIVRAISON
+          predicates:
+            - Path=/delivery/**, /livraisons/**
+
+        - id: restaurant-service
+          order: 0
+          uri: lb://RESTAURANT
+          predicates:
+            - Path=/restaurants/**
+
+        - id: avis-service
+          order: 0
+          uri: lb://AVIS
+          predicates:
+            - Path=/reclamations/**
+
+        - id: menu-service
+          order: 0
+          uri: lb://MENU
+          predicates:
+            - Path=/menus/**
+
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+        cors-configurations:
+          '[/**]':
+            allowedOriginPatterns:
+              - http://localhost:*
+              - http://127.0.0.1:*
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - PATCH
+              - OPTIONS
+            allowedHeaders:
+              - '*'
+            exposedHeaders:
+              - Authorization
+            allowCredentials: true
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/BoardKeycloak
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    disable-swagger-default-url: true
+    urls:
+      - name: order-service
+        url: /docs/order
+      - name: delivery-service
+        url: /docs/delivery
+      - name: restaurant-service
+        url: /docs/restaurants
+      - name: avis-service
+        url: /docs/reclamations
+      - name: menu-service
+        url: /docs/menus
+      - name: user-service
+        url: /user/api-json
+
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8761/eureka}
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
